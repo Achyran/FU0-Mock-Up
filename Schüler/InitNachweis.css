@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+}
+
+.Headline{
+    margin-bottom: 100px;
+}
+
+
+.OptionButton{
+    width: 50px;
+    height: 50px;
+    margin-left: 80%;
+}
+
+.content{
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.Button{
+    border: solid;
+    border-color: black;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.Button p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+p{
+    color: red;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: block;
+    
+}
+.backAndNextButton{
+    margin-top: 70px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
