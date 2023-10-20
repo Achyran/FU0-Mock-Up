@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willkommensfenster</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,10 +17,6 @@
             border: 1px solid #000;
             padding: 20px;
             text-align: center;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
         }
         .btn {
             display: block;
@@ -28,12 +28,15 @@
             margin-top: 30px;
         }
         .welcome-heading {
+            margin-top: 80px;  /* Hinzugefügt, um einen zusätzlichen oberen Abstand zu schaffen */
             margin-bottom: 80px;
         }
-        .settings-icon {
+        .settings-button {
             position: absolute;
             top: 10px;
-            right: 40px; 
+            right: 40px;
+            background: none;
+            border: none;
             font-size: 70px;
             color: #333; 
             cursor: pointer;
@@ -42,12 +45,22 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="welcome-heading">Willkommen [name]!</h1>
-        <i class="settings-icon">&#9881;</i>
-        <button class="btn">Ausbildungsantrag anlegen</button>
-        <button class="btn">Ausbildungsantrag einsehen</button>
-        <button class="btn">Profil einsehen</button>
+        
+        <!-- Icon als Button -->
+        <button class="settings-button">
+            <i class="settings-icon">&#9881;</i>
+        </button>
 
+        <h1 class="welcome-heading">Willkommen [name]!</h1>
+        
+        <button class="btn btn-primary">Ausbildungsantrag anlegen</button>
+        <button class="btn btn-primary">Ausbildungsantrag einsehen</button>
+        <button class="btn btn-primary">Profil einsehen</button>
     </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
