@@ -23,8 +23,9 @@ def side(side = ""):
 
 @app.route("/zeil", methods=['POST'])
 def ziel():
-    print(f"Data: {request.data}")
-    return request.form
+    name = request.form.get("name")
+    lastname = request.form.get("lastname")
+    return render_template("THX.html",**locals())
 
 
 # run api using flask
