@@ -1,0 +1,43 @@
+body{
+    background-color: gray;
+}
+
+.Headline{
+    margin-bottom: 150px;
+}
+
+
+.OptionButton{
+    width: 50px;
+    height: 50px;
+    margin-left: 80%;
+}
+
+.content{
+    padding-right: 30%;
+    padding-left: 30%;
+    
+}
+
+.Button{
+    border: solid;
+    border-color: black;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 300px;
+}
+
+.Button p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+.Row{
+    color: black;
+    border: 5px;
+    border-color: white;
+    height: 50px;
+}
